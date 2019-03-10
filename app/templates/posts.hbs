@@ -1,0 +1,14 @@
+
+<br>
+<h1> Blog Posts </h1>
+<div class="ui grid">
+  {{#each model as |onePost|}}
+    <div class="eight wide column">
+      <div class="overlay"><h3>{{onePost.title}}</h3></div>
+      <p>{{onePost.body}}</p>
+      <br>
+    </div>
+
+  {{/each}}
+</div>
+{{add-new-post}}

@@ -1,0 +1,29 @@
+<div class="nav">
+<ul>
+
+  <li class="home"><a href="#">Home</a></li>
+
+
+  <li class="news"><a href="#">Newsletter</a></li>
+  <li class="contact"><a href="#">Contact</a></li>
+  <li>{{#link-to "about"}}<h2>About</h2>{{/link-to}}</li>
+  <li>{{#link-to "posts"}} <h2>Posts</h2> {{/link-to}}</li>
+
+</ul>
+
+</div>
+<header>
+  <div class="overlay">
+    <h1>Blog Application</h1>
+    <h3>-By Akshay Jagadish</h3>
+    <p>Use the navigation bar to explore this feature.</p>
+    <br>
+    <button>READ MORE</button>
+  </div>
+</header>
+
+
+<br>
+<br>
+{{outlet}}
+
